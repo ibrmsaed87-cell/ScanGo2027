@@ -1,5 +1,5 @@
-name: scango2027
-description: "A new Flutter project."
+name: scango
+description: "ScanGo - Document Scanner and PDF Generator"
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -31,10 +31,22 @@ dependencies:
   flutter:
     sdk: flutter
 
+  flutter_localizations:
+    sdk: flutter
+  intl: any
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
+
+  # Core dependencies
+  image_picker: ^1.1.2
+  pdf: ^3.10.8
+  path_provider: ^2.1.4
+  share_plus: ^10.0.2
+  reorderable_grid_view: ^2.2.7
+  google_mobile_ads: ^5.1.0
+  google_mlkit_document_scanner: ^0.7.0
 
 dev_dependencies:
   flutter_test:
@@ -47,7 +59,13 @@ dev_dependencies:
   # rules and activating additional ones.
   flutter_lints: ^4.0.0
 
-# For information on the generic Dart part of this file, see the
+flutter:
+  uses-material-design: true
+  generate: true
+
+  # Localization
+  assets:
+    - lib/l10n/
 # following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter packages.

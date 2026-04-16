@@ -1,0 +1,20 @@
+{
+  "appTitle": "ScanGo",
+  "captureImage": "Capture Image",
+  "pickFromGallery": "Pick from Gallery",
+  "scanDocument": "Scan Document",
+  "generatePDF": "Generate PDF",
+  "sharePDF": "Share PDF",
+  "reorderImages": "Reorder Images",
+  "darkMode": "Dark Mode",
+  "lightMode": "Light Mode",
+  "language": "Language",
+  "english": "English",
+  "arabic": "Arabic",
+  "noImages": "No images selected",
+  "savingPDF": "Saving PDF...",
+  "pdfSaved": "PDF saved successfully",
+  "shareVia": "Share via",
+  "whatsapp": "WhatsApp",
+  "systemShare": "System Share"
+}
